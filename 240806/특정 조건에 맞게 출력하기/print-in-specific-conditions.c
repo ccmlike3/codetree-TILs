@@ -2,10 +2,10 @@
 
 int main() {
     int count;
-    int arr[10];
+    int arr[100];
 
     count = 0;
-    for (int i = 0; i < 10; i++)
+    for (int i = 0; i < 100; i++)
     {
         scanf("%d ", &arr[i]);
         if (arr[i] == 0)
